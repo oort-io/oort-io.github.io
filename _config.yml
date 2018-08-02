@@ -1,0 +1,58 @@
+# Site wide configuration
+
+title: "Oort"
+description: "Cloud Native Edge Computing"
+logo: oort_logo_small.png
+teaser: 400x250.gif
+locale: en_US
+url: https://oort-io.github.io/site/
+# url : http://192.168.1.32:4000 
+# ^ put your docker VM IP when you are working locally
+feed:
+  path: atom.xml
+
+# Jekyll configuration
+
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+
+# Site owner
+owner:
+  name: ""
+  web: 
+  twitter: 
+  bio: "Test bio."
+  avatar: "bio-photo.jpg" # 160x160 px image for author byline
+  disqus-shortname:
+
+
+include:
+  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp

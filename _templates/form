@@ -1,0 +1,14 @@
+---
+layout: {{ layout }}
+title: {{ title }}
+modified:
+excerpt:
+image:
+  feature:
+  teaser:
+  thumb:
+ads: false  
+action:
+redirect:
+form:
+---
