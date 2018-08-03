@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "Syntax Highlighting Test"
+title: "Blog Article Test"
 modified:
-categories: blog
+categories: example-blog
 excerpt: "Demo post to test the various ways of using syntax highlighting."
 tags: []
 image:
