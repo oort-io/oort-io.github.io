@@ -5,7 +5,7 @@ description: "Cloud Native Edge Computing"
 logo: oort_logo_small.png
 teaser: 400x250.gif
 locale: en_US
-url: https://oort-io.github.io/site/
+url: https://oort-io.github.io
 # url : http://192.168.1.32:4000 
 # ^ put your docker VM IP when you are working locally
 feed:
