@@ -9,7 +9,7 @@ image:
 
   <div class="tile">
     <h2 class="post-title">What is Edge Computing?</h2>
-    <p class="post-excerpt">Edge Computing has a broad range of definitions. The simple answer is anything outside the public cloud. Read our <a href="{{ site.url }}/what-is-edge-computing/">What is Edge Computing?</a> article for the full discussion.</p>
+    <p class="post-excerpt">Edge Computing has a broad range of definitions. The simple answer is anything outside the public cloud. Read our <a href="https://medium.com/@oort.io/what-is-edge-computing-4a056979f4a1">What is Edge Computing?</a> article for the full discussion.</p>
   </div><!-- /.tile -->
 
   <div class="tile">
@@ -24,7 +24,7 @@ image:
 
   <div class="tile">
     <h2 class="post-title">Stay Tuned</h2>
-    <p class="post-excerpt">Read our <a href="{{ site.url }}/blog/">blog</a>, tell us <a href="{{ site.url }}/contact/">your story and sign up for our mailing list</a>. Edge Computing is an exciting frontier for new ideas.</p>
+    <p class="post-excerpt">Read our <a href="https://medium.com/@oort.io">blog</a>, tell us <a href="{{ site.url }}/contact/">your story and sign up for our mailing list</a>. Edge Computing is an exciting frontier for new ideas.</p>
   </div><!-- /.tile -->
 
 </div><!-- /.tiles -->
