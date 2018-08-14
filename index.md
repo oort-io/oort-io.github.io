@@ -24,7 +24,7 @@ image:
 
   <div class="tile">
     <h2 class="post-title">Stay Tuned</h2>
-    <p class="post-excerpt">Read our <a href="{{ site.url }}/blog/">blog</a>, tell us <a href="{{ site.url }}/contact/">your story and sign up for our mailing list</a>. Edge Computing is an exciting frontier for new ideas.</p>
+    <p class="post-excerpt">Read our <a href="https://medium.com/@oort.io">blog</a>, tell us <a href="{{ site.url }}/contact/">your story and sign up for our mailing list</a>. Edge Computing is an exciting frontier for new ideas.</p>
   </div><!-- /.tile -->
 
 </div><!-- /.tiles -->
