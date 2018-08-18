@@ -5,7 +5,7 @@ description: "Oort: There's life outside the data center."
 logo: Oort-Icon.png
 teaser:
 locale: en_US
-url: https://oort-io.github.io
+url: https://oort.io
 # ^ put your docker VM IP when you are working locally
 feed:
   path: atom.xml
