@@ -1,7 +1,7 @@
 # Site navigation links
 
-- title: Product
-  url: /product/
+- title: About Us
+  url: /about/
   excerpt: "Cloud Native Edge Computing."
 
 - title: Blog
@@ -10,4 +10,4 @@
 
 - title: Contact
   url: /contact/
-  excerpt: "Tell us your story"
+  excerpt: "Sign up for our mailing list"
