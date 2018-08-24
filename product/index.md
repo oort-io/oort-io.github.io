@@ -11,4 +11,4 @@ share: false
 ads: false
 ---
 
-Oort is a Cloud Native Edge startup.
+Oort is a Cloud Native Edge Computing startup. We are currently in stealth, please sign up for our [mailing list]({{ site.url }}/contact) for updates.

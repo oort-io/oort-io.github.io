@@ -2,7 +2,7 @@
 
 - title: Product
   url: /product/
-  excerpt: "Our edgy skunkworks product."
+  excerpt: "Cloud Native Edge Computing."
 
 - title: Blog
   url: https://medium.com/@oort
@@ -11,8 +11,3 @@
 - title: Contact
   url: /contact/
   excerpt: "Tell us your story"
-
-- title: About Us
-  url: /about/
-  excerpt: ""
-
