@@ -14,7 +14,7 @@ image:
 
   <div class="tile">
     <h2 class="post-title">What is Oort?</h2>
-    <p class="post-excerpt">We're an Edge Computing startup infected with Cloud Native philosophy.<br/><br/><a href="{{ site.url }}/product/">Read more about Oort.</a></p>
+    <p class="post-excerpt">We're an Edge Computing startup infected with Cloud Native philosophy.<br/><br/><a href="{{ site.url }}/about/">Read more about Oort.</a></p>
   </div><!-- /.tile -->
 
   <div class="tile">
