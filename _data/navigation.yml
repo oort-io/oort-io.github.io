@@ -1,13 +1,13 @@
 # Site navigation links
 
-- title: About Us
-  url: /about/
-  excerpt: "Cloud Native Edge Computing."
+# - title: About Us
+#   url: /about/
+#   excerpt: "Cloud Native Edge Computing."
 
-- title: Blog
-  url: https://medium.com/@oort
-  excerpt: "Articles dedicated to all things Edge."
+# - title: Blog
+#   url: https://medium.com/@oort
+#   excerpt: "Articles dedicated to all things Edge."
 
-- title: Contact
-  url: /contact/
-  excerpt: "Sign up for our mailing list"
+# - title: Contact
+#   url: /contact/
+#   excerpt: "Sign up for our mailing list"

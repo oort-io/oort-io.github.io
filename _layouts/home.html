@@ -33,13 +33,12 @@
     {% include header.html %}
 
     {% if page.image.feature %}
-    <div class="page-lead" style="background-image:url({{ site.url }}/images/{{ page.image.feature }})">
+    <div class="page-lead" style="background-image:url({{ site.url }}/images/{{ page.image.feature }});">
       <div class="wrap page-lead-content">
           <div>
             <img src="/images/Oort-LogoOnly(WhitteALL).png" alt="Oort logo" style="max-width:60%; padding-bottom: 5px;">
           </div>
         <h3>Cloud Native Edge Computing</h3>
-          <a href="{{ site.url }}/contact/" class="btn-inverse">Contact Us</a> &nbsp; or &nbsp; <a href="https://medium.com/@oort" class="btn-inverse">Read our Blog</a>
       </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
     {% endif %}
@@ -56,6 +55,14 @@
           <div class="archive-wrap">
             <div class="page-content">
               {{ content }}
+
+              <script type="text/javascript">var submitted=false;</script>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='{{ site.url }}{{ page.redirect }}';}"></iframe>
+                <form action={{ page.action }} method="POST" target="hidden_iframe" 
+onsubmit="submitted=true;">
+                    {% if page.form %} {% include {{ page.form }} %} {% endif %}
+                    <input type="submit" value="Send" />
+                </form>
             </div><!-- /.page-content -->
           </div class="archive-wrap"><!-- /.archive-wrap -->
         </div><!-- /.wrap -->
