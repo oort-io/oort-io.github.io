@@ -30,8 +30,6 @@
   </head>
 
   <body>
-    {% include header.html %}
-
     {% if page.image.feature %}
     <div class="page-lead" style="background-image:url({{ site.url }}/images/{{ page.image.feature }});">
       <div class="wrap page-lead-content">
@@ -39,41 +37,35 @@
             <img src="/images/Oort-LogoOnly(WhitteALL).png" alt="Oort logo" style="max-width:60%; padding-bottom: 5px;">
           </div>
         <h3>Cloud Native Edge Computing</h3>
+        <!--
+        <a href="#contact" class="btn-inverse">Contact us</a> &nbsp; or &nbsp;
+        <a href="https://medium.com/@oort" class="btn-inverse">See our blog on Medium</a>
+      -->
+      <div class="form-wrap">
+        <form id="emailForm" action={{ page.action }} method="POST" target="hidden_iframe"
+  onsubmit="submitted=true;">
+            <input style="display: none;" value="Kubecon" type="text" name="entry.1610558163" />
+            <div class="input-wrap">
+              <input type="submit" value="Get updates from Oort" />
+              <svg width="42px" height="42px" style="float: right;">
+                <circle class="circle_2" stroke-position="outside" stroke-width="3" fill="none" cx="21" cy="21" r="19" stroke="#2ecc71"></circle>
+              </svg>
+            </div>
+            <div style="overflow: hidden; padding-right: .5em;"><input style="width: 100%;" name="entry.1833953811" type="email" placeholder="Email" required/></div>
+        </form>
+      </div>
       </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
     {% endif %}
 
     <div id="page-wrapper">
       {% include browser-upgrade.html %}
-
-      <div id="main" role="main">
-        <div class="wrap">
-          <div class="page-title">
-            <h1>{{ page.title }}</h1>
-            {% if page.excerpt %}<h2>{{ page.excerpt }}</h2>{% endif %}
-          </div>
-          <div class="archive-wrap">
-            <div class="page-content">
-              {{ content }}
-
-              <script type="text/javascript">var submitted=false;</script>
-                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='{{ site.url }}{{ page.redirect }}';}"></iframe>
-                <form action={{ page.action }} method="POST" target="hidden_iframe" 
-onsubmit="submitted=true;">
-                    {% if page.form %} {% include {{ page.form }} %} {% endif %}
-                    <input type="submit" value="Send" />
-                </form>
-            </div><!-- /.page-content -->
-          </div class="archive-wrap"><!-- /.archive-wrap -->
-        </div><!-- /.wrap -->
-      </div><!-- /#main -->
-
       {% include footer.html %}
     </div>
 
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>
-
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload=""></iframe>
   </body>
 
 </html>
