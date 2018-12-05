@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 image:
-  feature: space.jpeg
+  feature: stars-hd.jpg
 title: "Contact Us"
 modified: 2018-07-27T12:00:00-00:00
 excerpt:

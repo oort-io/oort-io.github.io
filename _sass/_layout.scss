@@ -228,6 +228,7 @@
 	background-attachment: fixed;
 	text-align: center;
 	color: $white;
+	min-height: 800px;
 	@include media($large) {
 		background-size: cover;
 	}
