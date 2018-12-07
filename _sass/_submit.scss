@@ -5,20 +5,37 @@ $trs-time: .4s;
   margin: 0 auto;
   max-width: 65%;
   text-align: center;
+
+
+  input {
+    float: left;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 37.5em) {
+    input {
+      float: left;
+      width: 65%;
+    }
+  }
+
 }
-.input-wrap {
+
+
+@mixin input-wrap-mixin() {
   position: relative;
   text-align: center;
-  width: $width;
+  margin: 0 auto;
   float: right;
+  min-width: $width;
   input[type="submit"] {
     display: block;
     height: $height;
     padding: 0;
     padding: 0 15px;
+    width: 100%;
     background: lighten($primary-color, 15);;
     margin: auto;
-    width: $width;
     border: 2px solid $success-color;
     color: $white;
     cursor: pointer;
@@ -43,7 +60,7 @@ $trs-time: .4s;
     transform: rotate(270deg);
     position: absolute;
     top: 0px;
-    left: ($width - $height)/2;
+    // left: ($width - $height)/2;
     display: none;
     .circle_2{
       stroke-dasharray: 0 200;
@@ -70,6 +87,22 @@ $trs-time: .4s;
     cursor: pointer;
   }
 }
+
+// MobileOptimized
+.input-wrap {
+  @include input-wrap-mixin();
+  width: 100%;
+}
+
+// mobile phone landscape + tablet
+@media screen and (min-width: 37.5em) {
+  .input-wrap {
+    @include input-wrap-mixin();
+    width: 30%;
+  }
+
+}
+
 @include keyframes(fill-stroke){
   0%{
     stroke-dasharray: 0 200;
