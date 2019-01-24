@@ -8,7 +8,8 @@ modified: 2018-07-27T12:00:00-00:00
 excerpt:
 share: false
 ads: false
-action: https://docs.google.com/forms/d/e/1FAIpQLScVoYLj4TnQiPW5jHQBYY2RKVd_9-lfm-yKkKQVv20xfMjjkw/formResponse
+action: https://docs.google.com/forms/d/e/1FAIpQLSf14biO9NwKLCmXoY-BEmgamARX65Ru78VEmpynEb_u9TgogQ/formResponse
+#action: http://localhost:4000/
 redirect: /thanks/
 form: contact.html
 ---
